@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Box extends Shape {
 
-    private List<Shape> list = new ArrayList<>();
+    private final List<Shape> list = new ArrayList<>();
     private float maxVolume;
 
     public Box(float maxVolume) {
