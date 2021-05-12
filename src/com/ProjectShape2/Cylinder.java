@@ -1,11 +1,11 @@
 package com.ProjectShape2;
 
 public class Cylinder extends SolidOfRevolution {
-    private double height;
+    private final double height;
 
     public Cylinder(double height, double radius) {
+        super(radius);
         this.height = height;
-        this.radius = radius;
     }
 
     @Override
